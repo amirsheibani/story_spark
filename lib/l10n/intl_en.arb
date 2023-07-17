@@ -1,0 +1,52 @@
+{
+  "error": "Error",
+  "warning": "Warning",
+  "info": "Info",
+  "success": "Success",
+  "date": "Date",
+  "search": "Search",
+  "apply": "Apply",
+  "clear": "Clear",
+  "sign_up": "SignUp",
+  "sign_in": "SignIn",
+
+
+  "next": "Next",
+
+  "firstname": "Firstname",
+  "lastname": "Lastname",
+  "nationalID": "National ID",
+  "address": "Address",
+  "country_code": "Code",
+  "save": "Save",
+  "update": "Update",
+
+  "change": "Change",
+  "sort": "Sort",
+  "male": "Male",
+  "female": "Female",
+
+  "phone_number": "Phone number",
+
+  "hour": "Hour",
+  "minute": "Minute",
+  "call":"Call",
+  "accept": "Accept",
+
+
+  "profile": "Profile",
+  "create": "Create",
+  "library": "Library",
+  "home": "Home",
+
+
+
+  "support": "Support",
+  "upload": "Upload",
+  "front": "Front",
+  "back": "Back",
+  "trips": "Trips",
+  "vip" : "VIP",
+  "wallet": "Wallet"
+
+}
