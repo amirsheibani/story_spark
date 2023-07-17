@@ -6,10 +6,10 @@ import 'package:story_spark/story_spark_app.dart';
 
 void main() async {
   environment = Stage();
-  environment.schema = 'http';
-  environment.baseUrl = 'pc360.ir';
+  environment.schema = 'https';
+  environment.baseUrl = 'storyspark.ai';
   environment.externalPageUrl = '';
-  environment.prefixPath = 'api';
+  environment.prefixPath = '';
   await setupApp();
 
   runApp(
