@@ -8,4 +8,5 @@ class AssetsIconHelper {
   static const userCircle = '$_base/user_circle.svg';
   static const apple = '$_base/apple.svg';
   static const google = '$_base/google.svg';
+  static const voiceRec = '$_base/voice_rec.svg';
 }

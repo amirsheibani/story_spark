@@ -69,9 +69,11 @@ class _TextFormFieldWidgetState extends State<TextFormFieldWidget> {
           focusNode: focusNode,
           autofocus: false,
           decoration: InputDecoration(
+            hintText: widget.hintText,
             filled: true,
             fillColor: Theme.of(context).colorSix,
             floatingLabelBehavior: FloatingLabelBehavior.auto,
+            suffixIcon: widget.suffixIcon,
             border: OutlineInputBorder(
               borderRadius: BorderRadius.circular(8.0),
               borderSide: BorderSide(

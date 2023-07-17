@@ -12,6 +12,7 @@ extension AppTheme on ThemeData {
   Color get colorSix => brightness == Brightness.light ? const Color(0xFFF2F2F2) : const Color(0xFFF2F2F2);
   Color get colorWhite => brightness == Brightness.light ? const Color(0xFFFFFFFF) : const Color(0XFFFFFFFF);
   Color get colorSeven => brightness == Brightness.light ? const Color(0xFFF78F2E) : const Color(0XFFF78F2E);
+  Color get colorEight => brightness == Brightness.light ? const Color(0xFFF1F1F1) : const Color(0XFFF1F1F1);
   Color get colorBlack => brightness == Brightness.light ? const Color(0xFF000000) : const Color(0XFF000000);
 
   Color get softYellow => brightness == Brightness.light ? const Color(0xFFF8E584) : const Color(0XFFF8E584);
