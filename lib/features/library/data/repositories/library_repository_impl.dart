@@ -18,7 +18,7 @@ class LibraryRepositoryImpl extends LibraryRepository {
   Future<Result<List<PreviewLibraryEntity?>?>> getPreviewLibrary() async {
     try {
       final resultToken = await _tokenLocalDataSource.readToken();
-      final result = await _libraryDataSource.getPreviewLibrary(resultToken.data!.accessToken!);
+      final result = await _libraryDataSource.getPreviewLibrary(resultToken.data?.accessToken);
       return Result.success(data: result.data!.map((e) => e.mapper()).toList(), status: result.status?.toString());
     } catch (e, s) {
       return e.toResult(s);

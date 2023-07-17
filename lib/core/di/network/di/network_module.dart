@@ -31,9 +31,9 @@ abstract class NetworkModule {
     dio.interceptors.add(_dioTokenInterceptor);
     dio.interceptors.add(_forceUpdateInterceptor);
     dio.interceptors.add(prettyDioLogger);
-    dio.options.connectTimeout = const Duration(seconds: 5);
-    dio.options.receiveTimeout = const Duration(seconds: 5);
-    dio.options.sendTimeout = const Duration(seconds: 5);
+    dio.options.connectTimeout = const Duration(seconds: 20);
+    dio.options.receiveTimeout = const Duration(seconds: 20);
+    dio.options.sendTimeout = const Duration(seconds: 20);
     return dio;
   }
 

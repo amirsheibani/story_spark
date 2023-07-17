@@ -12,7 +12,7 @@ class LibraryDataSourceImpl extends LibraryDataSource {
   LibraryDataSourceImpl(this._service);
 
   @override
-  Future<BaseListResponse<PreviewLibraryModel>> getPreviewLibrary(String token) async {
+  Future<BaseListResponse<PreviewLibraryModel>> getPreviewLibrary(String? token) async {
     try {
       final result = await _service.getPreviewLibrary(token: token);
       if (result != null && result is List) {
